@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>შეკვეთის ფორმა</title>
+</head>
+<body>
+    <p class="satauri">შეუკვეთე პროდუქტი დღესვე</p>
+    <!-- <div class="foni"></div> -->
+    <div class="surati"><img src="./img/bg.png" alt=""></div>
+   
+    <form class="forma" autocomplete="off" action="./meoregverdi.html" method="post">
+        <input type="text" name="firstname" id="firstname" placeholder="სახელი" class="gasastili">
+        <input type="text" name="lasttname" id="lasttname" placeholder="გვარი" class="gasastili">
+        <input type="tel" name="telnumber" id="telnumber" placeholder="ტელეფონის ნომერი" maxlength="9" class="gasastili">
+        
+        <label for="address" class="chasaweri">გთხოვთ მიუთითოთ ზუსტი მისამართი</label>
+        <textarea name="address" id="address" cols="30" rows="10" class="gasastili"></textarea>
+
+        <label for="radio" class="leblee">აირჩიეთ გადახდის მეთოდი</label>
+ <div class="radio">
+        <input type="radio" name="card" id="card" class="rad">
+        <label for="card" class="rad">ბარათით გადახდა</label>
+        <input type="radio" name="cash" id="cash" class="rad">
+        <label for="cash" class="rad">ქეშით გადახდა</label>
+    </div>
+
+        <input type="submit" name="shekveta" id="shekveta" value="შეკვეთის გაფორება" class="submit">
+
+
+       
+       
+
+
+   </form>
+</body>
+</html>
